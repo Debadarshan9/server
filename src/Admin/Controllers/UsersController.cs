@@ -83,7 +83,7 @@ public class UsersController : Controller
 
         if (user == null)
         {
-            return RedirectToAction("Index");
+            return RedirectToAction("App");
         }
 
         var ciphers = await _cipherRepository.GetManyByUserIdAsync(id);
