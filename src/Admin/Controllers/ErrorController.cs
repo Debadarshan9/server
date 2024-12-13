@@ -17,7 +17,7 @@ public class ErrorController : Controller
         }
         else
         {
-            return Redirect("/Home");
+            return Redirect("/Contact");
         }
     }
 }
